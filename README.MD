@@ -24,7 +24,7 @@ solution is:
 groups, put them into a list, and pick the smallest number.
 5. Use this smallest number to find pair of points left in x and y axes which distance
 are smaller than this number.
-'Score = X + Y
+*Score = X + Y
 
 By doing so, we do not need to evaluate the pair of points recursively thus reducing the
 running time significantly, 3.8 seconds (original solution) vs 0.7 seconds (alternative solution)
